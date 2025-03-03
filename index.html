@@ -46,12 +46,251 @@
         </button>
       </div>
     </nav>
-    <div class="flex gap-8 mt-5 justify-center items-center">
+    <!-- main part -->
+    <div class="flex gap-8 mt-5 justify-center items-center mb-10">
       <!-- left side div -->
-      <div class="w-[1146px] h-[918px] bg-[#FFFFFF]"></div>
-      <!-- right side div -->
-      <div class="w-[366px] h-[918px] bg-[#FFFFFF]">
+      <div class="w-[1146px] h-[918px] p-6 rounded-xl bg-[#FFFFFF]">
+        <!-- top-part -->
+        <div class="flex justify-center items-center gap-5">
+          <div
+            class="w-[263px] h-[128px] flex items-center justify-center gap-5 rounded-xl bg-[#F4F7FF]"
+          >
+            <div class="p-4 bg-white rounded-full">
+              <img src="assets/checkbox.png" alt="" />
+            </div>
+            <div>
+              <p>Task Assigned</p>
+              <div class="text-3xl font-bold">0<span>6</span></div>
+            </div>
+          </div>
+
+          <div
+            class="flex justify-center items-center gap-8 w-[524px] h-[128px] bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,250)_52.66%,rgb(155,168,248)_99.733%)] rounded-xl"
+          >
+            <img src="assets/board.png" alt="" />
+            <p class="text-white text-2xl">
+              Discover Something <br />
+              New Today!
+            </p>
+          </div>
+
+          <div
+            class="w-[263px] h-[128px] bg-[#F4F7FF] flex justify-center items-center gap-5 rounded-xl"
+          >
+            <div class="p-4 bg-white rounded-full">
+              <img src="assets/calender.png" alt="" />
+            </div>
+            <div>
+              <h3 class="text-2xl">
+                Wed , <br />
+                <span class="font-bold">Jul 28 2025 </span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5 border border-dashed border-[rgba(55,82,253,0.2)]" />
+        <!-- Six Task Part -->
+        <div class="grid grid-cols-3 gap-5">
+          <!-- 1st Card -->
+          <div class="w-[342px] h-[317px] p-6 rounded-xl bg-[#F4F7FF]">
+            <div
+              class="bg-[#FFFFFF] rounded-xl flex justify-center items-center w-[114px] h-[40px]"
+            >
+              ShopEase
+            </div>
+            <h1 class="text-2xl font-medium my-3">Fix Mobile Button Issue</h1>
+            <div
+              class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              Debug using Chrome <br />
+              DevTools, check for overlapping elements, and ensure onClick works
+              properly and ensure onClick works properly
+            </div>
+            <hr
+              class="my-5 border border-dashed border-[rgba(55,82,253,0.2)]"
+            />
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-gray-600">Deadline</h3>
+                <h1 class="font-medium">21 March 2025</h1>
+              </div>
+
+              <button
+                class="w-[135px] h-[44px] rounded-lg text-white bg-[#3752FD]"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- 2nd Card -->
+
+          <div class="w-[342px] h-[317px] p-6 rounded-xl bg-[#F4F7FF]">
+            <div
+              class="bg-[#FFFFFF] rounded-xl flex justify-center items-center w-[114px] h-[40px]"
+            >
+              CloudSync
+            </div>
+            <h1 class="text-2xl font-medium my-3">Add Dark Mode</h1>
+            <div
+              class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              Store the user's preference in <br />
+              localStorage, update CSS variables dynamically, and apply a smooth
+              transition effect.
+            </div>
+            <hr
+              class="my-5 border border-dashed border-[rgba(55,82,253,0.2)]"
+            />
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-gray-600">Deadline</h3>
+                <h1 class="font-medium">21 March 2025</h1>
+              </div>
+
+              <button
+                class="w-[135px] h-[44px] rounded-lg text-white bg-[#3752FD]"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- 3rd Card -->
+
+          <div class="w-[342px] h-[317px] p-6 rounded-xl bg-[#F4F7FF]">
+            <div
+              class="bg-[#FFFFFF] rounded-xl flex justify-center items-center w-[114px] h-[40px]"
+            >
+              SwiftPay
+            </div>
+            <h1 class="text-2xl font-medium my-3">Optimize Home Page</h1>
+            <div
+              class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              Debug using Chrome DevTools <br />, check for overlapping
+              elements, and ensure onClick works properly and ensure onClick
+              works properly
+            </div>
+            <hr
+              class="my-5 border border-dashed border-[rgba(55,82,253,0.2)]"
+            />
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-gray-600">Deadline</h3>
+                <h1 class="font-medium">21 March 2025</h1>
+              </div>
+
+              <button
+                class="w-[135px] h-[44px] rounded-lg text-white bg-[#3752FD]"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- 4th Card -->
+
+          <div class="w-[342px] h-[317px] p-6 rounded-xl bg-[#F4F7FF]">
+            <div
+              class="bg-[#FFFFFF] rounded-xl flex justify-center items-center w-[114px] h-[40px]"
+            >
+              Meta
+            </div>
+            <h1 class="text-2xl font-medium my-3">Add new emoji 🤲</h1>
+            <div
+              class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              Debug using Chrome DevTools <br />, check for overlapping
+              elements, and ensure onClick works properly and ensure onClick
+              works properly
+            </div>
+            <hr
+              class="my-5 border border-dashed border-[rgba(55,82,253,0.2)]"
+            />
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-gray-600">Deadline</h3>
+                <h1 class="font-medium">21 March 2025</h1>
+              </div>
+
+              <button
+                class="w-[135px] h-[44px] rounded-lg text-white bg-[#3752FD]"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- 5th Card -->
+
+          <div class="w-[342px] h-[317px] p-6 rounded-xl bg-[#F4F7FF]">
+            <div
+              class="bg-[#FFFFFF] rounded-xl flex justify-center items-center w-[114px] h-[40px]"
+            >
+              Google LLC
+            </div>
+            <h1 class="text-2xl font-medium my-3">Integrate OpenAI API</h1>
+            <div
+              class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              Debug using Chrome <br />
+              DevTools, check for overlapping elements, and ensure onClick works
+              properly and ensure onClick works properly
+            </div>
+            <hr
+              class="my-5 border border-dashed border-[rgba(55,82,253,0.2)]"
+            />
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-gray-600">Deadline</h3>
+                <h1 class="font-medium">21 March 2025</h1>
+              </div>
+
+              <button
+                class="w-[135px] h-[44px] rounded-lg text-white bg-[#3752FD]"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- 6th Card -->
+
+          <div class="w-[342px] h-[317px] p-6 rounded-xl bg-[#F4F7FF]">
+            <div
+              class="bg-[#FFFFFF] rounded-xl flex justify-center items-center w-[114px] h-[40px]"
+            >
+              Glassdoar
+            </div>
+            <h1 class="text-2xl font-medium my-3">Improve Job searching</h1>
+            <div
+              class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              Debug using Chrome <br />
+              DevTools, check for overlapping elements, and ensure onClick works
+              properly and ensure onClick works properly
+            </div>
+            <hr
+              class="my-5 border border-dashed border-[rgba(55,82,253,0.2)]"
+            />
+            <div class="flex justify-between items-center">
+              <div>
+                <h3 class="text-gray-600">Deadline</h3>
+                <h1 class="font-medium">21 March 2025</h1>
+              </div>
+
+              <button
+                class="w-[135px] h-[44px] rounded-lg text-white bg-[#3752FD]"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- right side div -->
+      <div class="w-[366px] h-[918px] rounded-xl bg-[#FFFFFF]"></div>
     </div>
   </body>
 </html>
