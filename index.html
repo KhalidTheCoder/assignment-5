@@ -37,7 +37,7 @@
           class="flex justify-center items-center gap-3 w-[123px] h-[64px] rounded-full bg-[#F4F7FF]"
         >
           <img class="w-[32px] h-[32px]" src="assets/checkbox.png" alt="" />
-          <span class="font-bold task-completed text-3xl">24</span>
+          <span id="task-completed" class="font-bold text-3xl">24</span>
         </div>
         <button
           id="theme-button"
@@ -60,13 +60,16 @@
               <img src="assets/checkbox.png" alt="" />
             </div>
             <div>
-              <p class="task-assigned">Task Assigned</p>
-              <div class="text-3xl font-bold">0<span>6</span></div>
+              <p>Task Assigned</p>
+              <div class="text-3xl font-bold">
+                0<span id="assigned-task">6</span>
+              </div>
             </div>
           </div>
 
           <div
-            class="flex justify-center items-center gap-8 w-[524px] h-[128px] bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,250)_52.66%,rgb(155,168,248)_99.733%)] rounded-xl"
+            id="new-window"
+            class="flex justify-center cursor-pointer items-center gap-8 w-[524px] h-[128px] bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,250)_52.66%,rgb(155,168,248)_99.733%)] rounded-xl"
           >
             <img src="assets/board.png" alt="" />
             <p class="text-white text-2xl">
@@ -82,10 +85,7 @@
               <img src="assets/calender.png" alt="" />
             </div>
             <div>
-              <h3 class="text-2xl">
-                Wed , <br />
-                <span class="font-bold">Jul 28 2025 </span>
-              </h3>
+              <h3 id="date" class="text-2xl"></h3>
             </div>
           </div>
         </div>
@@ -99,7 +99,9 @@
             >
               ShopEase
             </div>
-            <h1 class="text-2xl font-medium my-3">Fix Mobile Button Issue</h1>
+            <h1 id="first-title" class="text-2xl font-medium my-3">
+              Fix Mobile Button Issue
+            </h1>
             <div
               class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
             >
@@ -117,6 +119,7 @@
               </div>
 
               <button
+                id="mobile-btn"
                 class="w-[135px] h-[44px] task-btn rounded-lg text-white bg-[#3752FD]"
               >
                 Completed
@@ -132,7 +135,9 @@
             >
               CloudSync
             </div>
-            <h1 class="text-2xl font-medium my-3">Add Dark Mode</h1>
+            <h1 id="second-title" class="text-2xl font-medium my-3">
+              Add Dark Mode
+            </h1>
             <div
               class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
             >
@@ -150,6 +155,7 @@
               </div>
 
               <button
+                id="pay-btn"
                 class="w-[135px] h-[44px] task-btn rounded-lg text-white bg-[#3752FD]"
               >
                 Completed
@@ -165,7 +171,9 @@
             >
               SwiftPay
             </div>
-            <h1 class="text-2xl font-medium my-3">Optimize Home Page</h1>
+            <h1 id="third-title" class="text-2xl font-medium my-3">
+              Optimize Home Page
+            </h1>
             <div
               class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
             >
@@ -183,6 +191,7 @@
               </div>
 
               <button
+                id="home-btn"
                 class="w-[135px] h-[44px] task-btn rounded-lg text-white bg-[#3752FD]"
               >
                 Completed
@@ -198,7 +207,9 @@
             >
               Meta
             </div>
-            <h1 class="text-2xl font-medium my-3">Add new emoji 🤲</h1>
+            <h1 id="fourth-title" class="text-2xl font-medium my-3">
+              Add new emoji 🤲
+            </h1>
             <div
               class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
             >
@@ -216,6 +227,7 @@
               </div>
 
               <button
+                id="emoji-btn"
                 class="w-[135px] h-[44px] task-btn rounded-lg text-white bg-[#3752FD]"
               >
                 Completed
@@ -231,7 +243,9 @@
             >
               Google LLC
             </div>
-            <h1 class="text-2xl font-medium my-3">Integrate OpenAI API</h1>
+            <h1 id="fifth-title" class="text-2xl font-medium my-3">
+              Integrate OpenAI API
+            </h1>
             <div
               class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
             >
@@ -249,6 +263,7 @@
               </div>
 
               <button
+                id="ai-btn"
                 class="w-[135px] h-[44px] task-btn rounded-lg text-white bg-[#3752FD]"
               >
                 Completed
@@ -264,7 +279,9 @@
             >
               Glassdoar
             </div>
-            <h1 class="text-2xl font-medium my-3">Improve Job searching</h1>
+            <h1 id="sixth-title" class="text-2xl font-medium my-3">
+              Improve Job searching
+            </h1>
             <div
               class="w-[294px] h-[92px] bg-[#FFFFFF] text-gray-500 p-4 mb-4 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap"
             >
@@ -282,6 +299,7 @@
               </div>
 
               <button
+                id="job-btn"
                 class="w-[135px] h-[44px] task-btn rounded-lg text-white bg-[#3752FD]"
               >
                 Completed
@@ -297,11 +315,16 @@
             <img src="assets/activity.png" alt="" />
             <h3 class="text-xl">Activity Log</h3>
           </div>
-          <button class="w-[150px] h-[44px] rounded-lg text-white bg-[#3752FD]">
+          <button
+            id="clear-btn"
+            class="w-[150px] h-[44px] rounded-lg text-white bg-[#3752FD]"
+          >
             Clear History
           </button>
         </div>
         <hr class="my-5 border border-dashed border-[rgba(55,82,253,0.2)]" />
+
+        <div id="activity-log"></div>
       </div>
     </div>
     <script src="script/script.js"></script>
