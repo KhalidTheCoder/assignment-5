@@ -183,5 +183,5 @@ document.getElementById("date").innerHTML =
   });
 
 document.getElementById("new-window").addEventListener("click", function () {
-  window.open("new.html", "_blank");
+  window.location.href = "new.html";
 });
